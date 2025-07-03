@@ -5,7 +5,7 @@
 AlarmClock::AlarmClock() :
     hours(0), minutes(0), activeStatus(false), volume(50), melody("Default melody") {}
 
-AlarmClock& AlarmClock::setTime(int hours, int minutes) {
+AlarmClock& AlarmClock::setTime(int hours, int minutes) { 
     this->hours = hours;
     this->minutes = minutes;
     return *this;

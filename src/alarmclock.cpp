@@ -12,7 +12,7 @@ AlarmClock& AlarmClock::setTime(int hours, int minutes) {
 }
 
 AlarmClock& AlarmClock::turnOn() {
-    this->activeStatus = true;
+    this->activeStatus = true; 
     return *this;
 }
 
